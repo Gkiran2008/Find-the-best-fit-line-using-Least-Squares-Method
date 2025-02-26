@@ -41,6 +41,8 @@ y_mean=np.mean(y)
 print(x_mean)
 print(y_mean)
 
+
+
 num,denom=0,0
 for i in range(len(x)):
     num+=((x[i]-x_mean)*(y[i]-y_mean))
@@ -48,6 +50,7 @@ for i in range(len(x)):
 m=num/denom
 b=y_mean - m*x_mean
 print(m,b)
+
 
 y_prediction=m*x+b
 y_prediction
@@ -60,6 +63,16 @@ print(m*3+b)
 ```
 
 ## Output:
+
+
+![{FFBC5711-2574-44A8-8D25-E222179066C2}](https://github.com/user-attachments/assets/c5655750-b5f1-427a-9478-d7da7916dbac)
+
+
+![{EF3788C7-2203-487F-8D98-F12B49785607}](https://github.com/user-attachments/assets/a4028ebd-4cfa-43f8-99c5-e09e1a54c205)
+
+
+![{1490A683-2A81-4510-970B-40FE27FBD447}](https://github.com/user-attachments/assets/63824c44-b8fa-4e64-8341-70b686d18ddd)
+
 
 ![{63FE1A24-DB70-457A-8D42-A9D3136328BB}](https://github.com/user-attachments/assets/c47507c7-ba27-4fe9-8a9e-bf3005361ff0)
 
